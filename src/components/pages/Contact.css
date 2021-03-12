@@ -1,0 +1,51 @@
+.contact__container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../images/contact-img.jpg") center center/cover no-repeat;
+  height: 85vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.contact__container > h1 {
+  color: #fff;
+  font-size: 55px;
+}
+
+.contact__details > p {
+  color: #fff;
+  line-height: 1.5;
+  text-decoration: none;
+  pointer-events: none;
+  font-size: 25px;
+}
+
+.mailTo {
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+}
+
+.contact__details > a:hover {
+  color: #7e5b86;
+  transition: 0.5 ease-out;
+}
+
+.contact__info {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
